@@ -1,5 +1,8 @@
 # 🐣 GodMode Interface
 
+> **Created by Antono**
+
+
 A web-based interface for accessing multiple AI chat services simultaneously, inspired by [smol-ai/GodMode](https://github.com/smol-ai/GodMode).
 
 ## Features
