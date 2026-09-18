@@ -1,82 +1,67 @@
-<!-- README ini dihasilkan otomatis oleh .github/workflows/generate-readme.yml -->
-<!-- Jangan edit manual: perubahan akan ditimpa pada run berikutnya. -->
+<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
+<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
 
-<h1 align="center">GodMode 👋</h1>
+<h1 align="center">GodMode - AI Chat Browser 👋</h1>
 
 <p align="center">
-  <em>godmode-interface</em>
+  <strong>GodMode - AI Chat Browser</strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/antono4/godmode-interface"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/godmode-interface-blue?logo=github"></a>
   <a href="https://antono4.github.io/godmode-interface/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
-  <img alt="Files" src="https://img.shields.io/badge/Files-25-informational">
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/antono4/godmode-interface">
+  <img alt="Files" src="https://img.shields.io/badge/Files-28-informational">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-09-18 07:19:59 WIB-lightgrey">
 </p>
 
 ---
 
 ## 📖 Tentang
 
-Repository **`godmode-interface`** adalah proyek Node.js yang dibangun dengan HTML, CSS, JavaScript, React.
-Situs ini diterbitkan melalui **GitHub Pages** dan dapat diakses di [`https://antono4.github.io/godmode-interface/`](https://antono4.github.io/godmode-interface/).
+Repository **`godmode-interface`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/godmode-interface/`](https://antono4.github.io/godmode-interface/).
 
 ## 🗂️ Struktur Proyek
 
 ```
 godmode-interface/
-.github/
-  workflows/
-.gitignore
-LICENSE
-index.html
-package-lock.json
-package.json
-postcss.config.js
-public/
-  vite.svg
-src/
-  App.tsx
-  components/
-  index.css
-  main.tsx
-  providers/
-  types/
-  vite-env.d.ts
-tailwind.config.js
-tsconfig.json
-tsconfig.node.json
-vite.config.ts
+├── index.html          # Halaman utama (landing / portofolio)
+├── assets/             # Aset statis (css, js, img, vendor)
+├── forms/               # Form handler (PHP)
 ```
 
 ## 🛠️ Teknologi
 
-Berdasarkan ekstensi berkas yang terdeteksi di repository:
+Berdasarkan isi repository, proyek ini menggunakan:
 
 - `HTML`
 - `CSS`
 - `JavaScript`
 - `React`
 
-> Total **25 berkas** di repository (di luar `.git`, `node_modules`, `dist`, dan `build`).
+> Total **28 file** terdeteksi di repository.
 
 ## 🚀 Menjalankan Secara Lokal
 
-Butuh Node.js:
+Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
 
 ```bash
-npm install
-npm run dev
+# Tanpa dependency
+python3 -m http.server 8000
+# lalu buka http://localhost:8000
+
+# atau dengan PHP (untuk form handler di forms/)
+php -S localhost:8000
 ```
 
 ## 📬 Kontak
 
 - GitHub: [antono4](https://github.com/antono4)
+- Situs: [https://antono4.github.io/godmode-interface/](https://antono4.github.io/godmode-interface/)
 
 ## 📄 Lisensi
 
-Proyek ini dilisensikan di bawah MIT License — lihat berkas [`LICENSE`](./LICENSE).
+Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
 
 ---
 
-<sub>README ini di-generate otomatis oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
+<sub>README ini di-generate otomatis pada **2026-09-18 07:19:59 WIB** oleh GitHub Actions `.github/workflows/generate-readme.yml`.</sub>
